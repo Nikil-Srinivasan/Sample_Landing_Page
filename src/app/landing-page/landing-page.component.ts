@@ -3,6 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { HeroSectionComponent } from './sections/hero-section/hero-section.component';
 import { ClientSectionComponent } from './sections/client-section/client-section.component';
 import { CommunitySectionComponent } from './sections/community-section/community-section.component';
+import { ProductSectionComponent } from './sections/product-section/product-section.component';
 
 @Component({
   selector: 'app-landing-page',
@@ -12,6 +13,7 @@ import { CommunitySectionComponent } from './sections/community-section/communit
     HeroSectionComponent,
     ClientSectionComponent,
     CommunitySectionComponent,
+    ProductSectionComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
