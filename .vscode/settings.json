@@ -2,6 +2,11 @@
     "angular-schematics.schematicsDefaultOptions": {
         "angular-*": {
             "externalTemplate": true
+        },
+        "angular-component": {
+            "skipDisplayBlock": true,
+            "skipChangeDetectionOnPush": true
         }
-    }
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 }

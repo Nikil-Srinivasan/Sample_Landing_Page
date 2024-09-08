@@ -1,0 +1,84 @@
+.hero-section {
+  .top-bar {
+    display: flex;
+    height: 84px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    a {
+      text-decoration: none;
+      color: #18191F;
+    }
+
+    .navigation {
+      display: flex;
+      gap: 50px;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 14px;
+
+      .login-btn {
+        all: unset;
+        padding: 10px 20px;
+        font-weight: 500;
+        color: #4CAF4F;
+        cursor: pointer;
+      }
+
+      .sign-up-btn {
+        padding: 10px 20px;
+        border-radius: 6px;
+        background: #4CAF4F;
+        border: #4CAF4F;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .hero-section-body {
+    display: flex;
+    padding: 96px 110px;
+    align-items: center;
+    gap: 104px;
+
+    .body-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 32px;
+      flex: 1 0 0;
+
+      .title {
+        font-size: 64px;
+        font-weight: 600;
+        margin-bottom: 16px;
+  
+        .text-black {
+          color: #4D4D4D;
+        }
+    
+        .text-green {
+          color: #4CAF4F;
+        }
+      }
+  
+      .description {
+        color: #717171;
+      }
+
+      .register-btn {
+        padding: 14px 32px;
+        border-radius: 4px;
+        background: #4CAF4F;
+        border: #4CAF4F;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+  }
+}
