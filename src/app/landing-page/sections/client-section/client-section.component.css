@@ -1,0 +1,28 @@
+.client-section {
+    display: flex;
+    padding: 0px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0px;
+
+    .title {
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        color: #4D4D4D;
+        margin-bottom: 8px;
+    }
+
+    .description {
+        color: #717171;
+    }
+
+    .client-logos {
+        display: flex;
+        justify-content: space-between;
+        height: 98px;
+        align-items: center;
+        align-self: stretch;
+    }
+}
