@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [LandingPageComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styles: []
 })
 export class AppComponent {
   title = 'css_project';
