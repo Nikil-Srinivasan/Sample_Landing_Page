@@ -1,0 +1,11 @@
+<div class="community-section">
+  <div class="title">Manage your entire community in a single system</div>
+  <div class="description">Who is Nextcent suitable for?</div>
+  <div class="features-container">
+    <app-community-features
+      *ngFor="let feature of communityFeatures"
+      [feature]="feature"
+    >
+    </app-community-features>
+  </div>
+</div>

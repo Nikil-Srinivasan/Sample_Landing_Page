@@ -1,0 +1,27 @@
+.community-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    .title {
+        font-size: 36px;
+        font-weight: 600;
+        max-width: 542px;
+        text-align: center;
+    }
+
+    .description {
+        color: #717171;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    .features-container {
+        display: flex;
+        padding: 0px 144px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

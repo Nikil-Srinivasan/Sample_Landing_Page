@@ -9,4 +9,8 @@
         }
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "cSpell.words": [
+        "Nextcent",
+        "Organisations"
+    ],
 }

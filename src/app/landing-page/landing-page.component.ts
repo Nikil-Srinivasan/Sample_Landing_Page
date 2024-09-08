@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { HeroSectionComponent } from './sections/hero-section/hero-section.component';
 import { ClientSectionComponent } from './sections/client-section/client-section.component';
+import { CommunitySectionComponent } from './sections/community-section/community-section.component';
 
 @Component({
   selector: 'app-landing-page',
@@ -9,9 +10,10 @@ import { ClientSectionComponent } from './sections/client-section/client-section
   imports: [
     CommonModule,
     HeroSectionComponent,
-    ClientSectionComponent
+    ClientSectionComponent,
+    CommunitySectionComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
 })
-export class LandingPageComponent { }
+export class LandingPageComponent {}
