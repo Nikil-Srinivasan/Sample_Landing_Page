@@ -1,4 +1,6 @@
 .hero-section {
+  background-color: #f5f7fa;
+  
   .top-bar {
     display: flex;
     height: 84px;
