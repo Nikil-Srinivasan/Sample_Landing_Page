@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { Feature } from '../community-section.component';
+import { Feature } from '../../../models/landing-page.models';
 
 @Component({
   selector: 'app-community-features',

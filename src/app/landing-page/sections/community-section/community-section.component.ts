@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { CommunityFeaturesComponent } from './community-features/community-features.component';
+import { Feature } from '../../models/landing-page.models';
 
 @Component({
   selector: 'app-community-section',
@@ -33,11 +34,4 @@ export class CommunitySectionComponent {
       altText: 'Clubs And Groups',
     },
   ];
-}
-
-export interface Feature {
-  title: string;
-  description: string;
-  logo: string;
-  altText: string;
 }
