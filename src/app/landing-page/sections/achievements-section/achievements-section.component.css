@@ -1,0 +1,61 @@
+.achievements-section {
+    display: flex;
+    padding: 64px 144px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F7FA;
+
+    .heading-section {
+        display: flex;
+        width: 540px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex-shrink: 0;
+
+        .title {
+            font-size: 36px;
+            font-weight: 600;
+            width: 75%;
+      
+            .text-black {
+              color: #4D4D4D;
+            }
+        
+            .text-green {
+              color: #4CAF4F;
+            }
+        }
+    }
+
+    .counts-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 41%;
+
+        .counts-row {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+
+            .count-container {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                width: 50%;
+
+                h3 {
+                    color: #4D4D4D;
+                    margin: 0;
+                }
+
+                .count-title {
+                    color: #717171;
+                }
+            }
+        }
+    }
+}
