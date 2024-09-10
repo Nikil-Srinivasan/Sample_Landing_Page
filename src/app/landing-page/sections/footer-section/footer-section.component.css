@@ -1,0 +1,109 @@
+.demo-section {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #F5F7FA;
+    
+    h1 {
+        color:#263238;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 76px;
+        max-width: 887px;
+    }
+
+    .demo-btn {
+        border-radius: 4px;
+        background:#4CAF4F;
+        color: #fff;
+        border: #4CAF4F;
+        padding: 14px 32px;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    display: flex;
+    padding: 64px 165px;
+    align-items: flex-start;
+    gap: 125px;
+    background: #263238;
+
+    .company-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+
+        .copyright {
+            color: #F5F7FA;
+            font-size: 16px;
+            line-height: 24px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;   
+            }
+        }
+
+        .social-media {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+    }
+
+    .link-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        
+        h4 {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 24px;
+            cursor: pointer;
+        }
+
+        .company-links {
+            color: #F5F7FA;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 400;
+
+            p {
+                cursor: pointer;
+            }
+        }
+
+        .input-field {
+            all: unset; 
+            width: 255px;
+            height: 30px;
+            border-radius: 8px;
+            background: #515b60;
+            padding: 11px 35px 11px 11px;
+            color:#D9DBE1;
+        }
+
+        .input-field::placeholder {
+            color: #D9DBE1;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        img {
+            position: relative;
+            bottom: 35px;
+            left: 268px;
+        }
+    }
+}
