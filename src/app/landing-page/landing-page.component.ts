@@ -7,6 +7,7 @@ import { ProductSectionComponent } from './sections/product-section/product-sect
 import { AchievementsSectionComponent } from './sections/achievements-section/achievements-section.component';
 import { Feature } from './models/landing-page.models';
 import { TestimonialSectionComponent } from './sections/testimonial-section/testimonial-section.component';
+import { CommunityUpdateSectionComponent } from './sections/community-update-section/community-update-section.component';
 
 @Component({
   selector: 'app-landing-page',
@@ -19,6 +20,7 @@ import { TestimonialSectionComponent } from './sections/testimonial-section/test
     ProductSectionComponent,
     AchievementsSectionComponent,
     TestimonialSectionComponent,
+    CommunityUpdateSectionComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
