@@ -6,6 +6,7 @@ import { CommunitySectionComponent } from './sections/community-section/communit
 import { ProductSectionComponent } from './sections/product-section/product-section.component';
 import { AchievementsSectionComponent } from './sections/achievements-section/achievements-section.component';
 import { Feature } from './models/landing-page.models';
+import { TestimonialSectionComponent } from './sections/testimonial-section/testimonial-section.component';
 
 @Component({
   selector: 'app-landing-page',
@@ -17,6 +18,7 @@ import { Feature } from './models/landing-page.models';
     CommunitySectionComponent,
     ProductSectionComponent,
     AchievementsSectionComponent,
+    TestimonialSectionComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
