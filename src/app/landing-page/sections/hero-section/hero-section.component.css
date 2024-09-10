@@ -1,47 +1,48 @@
-.hero-section {
+.top-bar {
+  display: flex;
+  height: 84px;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
   background-color: #f5f7fa;
-  
-  .top-bar {
+  z-index: 2;
+
+  a {
+    text-decoration: none;
+    color: #18191F;
+  }
+
+  .navigation {
     display: flex;
-    height: 84px;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: #f5f7fa;
+    gap: 50px;
+  }
 
-    a {
-      text-decoration: none;
-      color: #18191F;
+  .auth-buttons {
+    display: flex;
+    gap: 14px;
+
+    .login-btn {
+      all: unset;
+      padding: 10px 20px;
+      font-weight: 500;
+      color: #4CAF4F;
+      cursor: pointer;
     }
 
-    .navigation {
-      display: flex;
-      gap: 50px;
-    }
-
-    .auth-buttons {
-      display: flex;
-      gap: 14px;
-
-      .login-btn {
-        all: unset;
-        padding: 10px 20px;
-        font-weight: 500;
-        color: #4CAF4F;
-        cursor: pointer;
-      }
-
-      .sign-up-btn {
-        padding: 10px 20px;
-        border-radius: 6px;
-        background: #4CAF4F;
-        border: #4CAF4F;
-        color: #FFFFFF;
-        cursor: pointer;
-      }
+    .sign-up-btn {
+      padding: 10px 20px;
+      border-radius: 6px;
+      background: #4CAF4F;
+      border: #4CAF4F;
+      color: #FFFFFF;
+      cursor: pointer;
     }
   }
+}
+
+.hero-section {
+  background-color: #f5f7fa;
 
   .hero-section-body {
     display: flex;
